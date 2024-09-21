@@ -24,6 +24,7 @@
 .container {
   max-width: 1000px;
   margin: 0 auto;
+  padding-top:40px;
 }
 
 h1 {
@@ -131,7 +132,7 @@ h1 {
   }
 
   .skill-item {
-    max-width: 100%;
+    max-width: 1;
   }
 }
 

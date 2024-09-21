@@ -9,6 +9,8 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ProjectDetailComponent } from './project-detail/project-detail.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,12 +19,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ProjectsComponent,
     AboutComponent,
     ContactComponent,
-    HeaderComponent
+    HeaderComponent,
+    ProjectDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

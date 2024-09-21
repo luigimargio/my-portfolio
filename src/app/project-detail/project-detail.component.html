@@ -1,0 +1,33 @@
+<section class="project-detail fade-in" *ngIf="project">
+  <div class="container">
+    <h1>{{ project.title }}</h1>
+    <div class="project-media">
+      <ng-container [ngSwitch]="project.mediaType">
+        <img *ngSwitchCase="'image'" [src]="project.mediaSrc" [alt]="project.title" />
+        <div *ngSwitchCase="'video'" class="video-container">
+          <video controls [poster]="project.thumbnail">
+            <source [src]="project.mediaSrc" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </ng-container>
+    </div>
+    <div class="project-description">
+      <p>{{ project.details }}</p>
+      <p><strong>Platform:</strong> {{ project.platform }}</p>
+      <p>
+        <strong>Development Platform:</strong>
+        <img
+          [src]="getEngineIcon(project.developmentPlatform)"
+          [alt]="project.developmentPlatform"
+          class="engine-icon"
+        />
+        <span class="development-platform-text">{{ project.developmentPlatform }}</span>
+      </p>      
+      <h3>My Responsibilities:</h3>
+      <ul>
+        <li *ngFor="let responsibility of project.responsibilities">{{ responsibility }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
