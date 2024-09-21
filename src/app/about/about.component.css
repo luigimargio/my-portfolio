@@ -1,0 +1,18 @@
+.about-container {
+    background-color: var(--container-background);
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 48px;
+    color: var(--primary-text-color);
+    margin-bottom: 20px;
+  }
+  
+  .about-subtitle {
+    font-size: 24px;
+    color: var(--secondary-text-color);
+  }
+  
+  
