@@ -3,6 +3,11 @@
       <div class="logo">
         Luigi Margiotta
       </div>
+      <nav class="navigation">
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+        <a routerLink="/about" routerLinkActive="active">About</a>
+        <!-- Puoi aggiungere altri link come "Progetti", "Contatti", ecc. -->
+      </nav>
       <nav class="social-links">
         <a href="https://www.linkedin.com/in/luigi-margiotta/" target="_blank" aria-label="LinkedIn" title="LinkedIn">
           <i class="fab fa-linkedin-in"></i>

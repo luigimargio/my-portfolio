@@ -1,18 +1,201 @@
 .about-container {
-    background-color: var(--container-background);
-    padding: 40px 20px;
-    text-align: center;
+  background-color: var(--container-background);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 48px;
+  color: var(--primary-text-color);
+  margin-bottom: 20px;
+}
+
+.about-subtitle {
+  font-size: 24px;
+  color: var(--secondary-text-color);
+}
+
+.about {
+  padding: 60px 20px;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-image {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.about-text {
+  flex: 2 1 400px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+}
+
+/* Media query per schermi più piccoli */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
   }
-  
-  .about-title {
-    font-size: 48px;
-    color: var(--primary-text-color);
-    margin-bottom: 20px;
+
+  .about-image,
+  .about-text {
+    flex: 1 1 100%;
   }
-  
-  .about-subtitle {
-    font-size: 24px;
-    color: var(--secondary-text-color);
+}
+.skills {
+  margin-top: 60px;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.skill-item {
+  background-color: var(--container-background);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.skill-item i {
+  font-size: 40px;
+  color: var(--accent-color);
+  margin-bottom: 15px;
+}
+
+.skill-item fa-icon {
+  display: block; /* Aggiunto */
+  font-size: 40px;
+  color: var(--accent-color);
+  margin-bottom: 15px; /* Puoi aumentare questo valore se necessario */
+}
+
+.skill-item h3 {
+  font-size: 22px;
+  color: var(--primary-text-color);
+  margin-top: 0; /* Assicura che non ci sia spazio sopra */
+  margin-bottom: 10px; /* Spazio sotto il titolo */
+}
+
+.skill-item p {
+  font-size: 16px;
+  color: var(--secondary-text-color);
+  margin-top: 0; /* Evita spazio extra sopra il paragrafo */
+}
+
+@media (max-width: 768px) {
+  .skills-list {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  
+
+  .skill-item {
+    max-width: 100%;
+  }
+}
+
+.timeline {
+  margin-top: 60px;
+}
+
+.timeline h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.timeline-events {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.timeline-event {
+  background-color: var(--container-background);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.timeline-date {
+  font-size: 16px;
+  color: var(--accent-color);
+  margin-bottom: 5px;
+  display: block;
+}
+
+.timeline-event h3 {
+  font-size: 22px;
+  color: var(--primary-text-color);
+  margin-bottom: 10px;
+}
+
+.timeline-event p {
+  font-size: 16px;
+  color: var(--secondary-text-color);
+  line-height: 1.6;
+}
+
+.timeline-event ul {
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+  color: var(--secondary-text-color);
+}
+
+.timeline-event ul li {
+  position: relative;
+  padding-left: 25px; /* Spazio per l'icona personalizzata */
+  margin-bottom: 10px;
+}
+
+.timeline-event ul li::before {
+  content: '\f0da'; /* Codice unicode dell'icona (esempio: Font Awesome) */
+  font-family: 'Font Awesome 5 Free'; /* Assicurati che la libreria sia inclusa */
+  font-weight: 900; /* Peso dell'icona */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent-color); /* Colore dell'icona */
+}
+
