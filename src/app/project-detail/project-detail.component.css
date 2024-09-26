@@ -45,16 +45,21 @@ h1 {
   color: var(--secondary-text-color);
 }
 
+.project-description h2,
 .project-description h3 {
   margin-top: 30px;
   font-size: 24px;
   color: var(--primary-text-color);
 }
 
-.project-description ul {
+
+.project-description ul,
+.project-description ol {
   list-style-type: disc;
   margin-left: 20px;
+  margin-bottom: 15px;
 }
+
 
 .project-description li {
   margin-bottom: 10px;
@@ -66,8 +71,15 @@ h1 {
   margin-bottom: 15px;
 }
 
-.project-description p strong {
+.project-description strong {
   color: var(--primary-text-color);
+}
+.project-description a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.project-description a:hover {
+  text-decoration: underline;
 }
 .engine-icon {
   width: 24px;

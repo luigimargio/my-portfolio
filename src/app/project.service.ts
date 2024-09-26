@@ -11,6 +11,8 @@ export interface Project {
   responsibilities: string[];
   developmentPlatform: string;
   platform: 'Mobile' | 'PC' | 'Both';
+  developmentDuration: string; 
+  customContent?: string; 
 }
 
 @Injectable({
@@ -32,6 +34,16 @@ export class ProjectService {
       responsibilities: ['Producer', 'Gameplay Design'],
       developmentPlatform: 'Unity',
       platform: 'PC',
+      developmentDuration: 'January 2020 - March 2020', 
+      customContent: `
+        <h2>Additional Information</h2>
+        <p>In questo progetto, mi sono occupato di...</p>
+        <ul>
+          <li>Design dei livelli</li>
+          <li>Scrittura della narrativa</li>
+          <li>Implementazione del sistema di combattimento</li>
+        </ul>
+      `
     },
     {
       id: 'project2',
@@ -46,7 +58,16 @@ export class ProjectService {
       Customize your darts with unique aesthetics unlocked through a loot box system, adding a personal touch to your gameplay experience.`,
       responsibilities: ['Lead Design', 'Art Direction'],
       developmentPlatform: 'Unity',
-      platform: 'Mobile',
+      platform: 'Mobile', developmentDuration: 'January 2020 - March 2020', // Durata di sviluppo
+      customContent: `
+        <h2>Additional Information</h2>
+        <p>In questo progetto, mi sono occupato di...</p>
+        <ul>
+          <li>Design dei livelli</li>
+          <li>Scrittura della narrativa</li>
+          <li>Implementazione del sistema di combattimento</li>
+        </ul>
+      `
     },
     {
       id: 'project3',
@@ -60,7 +81,16 @@ export class ProjectService {
 U               se your wits to stop the loop and save everyone from the apocalypse.`,
       responsibilities: ['Worldbuilding', 'Art Direction'],
       developmentPlatform: 'Unreal Engine',
-      platform: 'PC',
+      platform: 'PC', developmentDuration: 'January 2020 - March 2020', // Durata di sviluppo
+      customContent: `
+        <h2>Additional Information</h2>
+        <p>In questo progetto, mi sono occupato di...</p>
+        <ul>
+          <li>Design dei livelli</li>
+          <li>Scrittura della narrativa</li>
+          <li>Implementazione del sistema di combattimento</li>
+        </ul>
+      `
     },
   ];
 

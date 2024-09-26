@@ -110,3 +110,31 @@ img {
 .fade-in {
   animation: fadeIn 0.8s ease forwards;
 }
+
+.contents-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contents-text {
+  flex: 2 1 400px;
+}
+
+.contents-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+}
+
+.contents-image {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.contents-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
