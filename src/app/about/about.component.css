@@ -62,7 +62,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Media query per schermi più piccoli */
 @media (max-width: 768px) {
   .about-content {
     flex-direction: column;

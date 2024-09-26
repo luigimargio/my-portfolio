@@ -32,7 +32,7 @@ import {
           { optional: true }
         ),
         group([
-          // Animazione per l'elemento in uscita
+          // Animazione per l'elemento in uscita (fade out)
           query(
             ':leave',
             [
@@ -40,25 +40,22 @@ import {
                 '0.5s ease',
                 style({
                   opacity: 0,
-                  transform: 'translateX(-100%)',
                 })
               ),
             ],
             { optional: true }
           ),
-          // Animazione per l'elemento in entrata
+          // Animazione per l'elemento in entrata (fade in)
           query(
             ':enter',
             [
               style({
                 opacity: 0,
-                transform: 'translateX(100%)',
               }),
               animate(
                 '0.5s ease',
                 style({
                   opacity: 1,
-                  transform: 'translateX(0)',
                 })
               ),
             ],
@@ -67,7 +64,7 @@ import {
         ]),
       ]),
     ]),
-  ],
+  ]  
 })
 export class AppComponent {
   title = 'my-portfolio';

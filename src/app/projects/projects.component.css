@@ -92,21 +92,9 @@ h1 {
 }
 
 .btn {
-  align-self: flex-start;
-  background-color: var(--accent-color);
-  color: var(--primary-text-color);
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background-color: #ffffff;
-  color: var(--background-color);
+  font-size: 14px;
 }
 
 .project-info p {

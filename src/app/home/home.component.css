@@ -41,7 +41,7 @@
     margin-right: auto;
   }
   
-  .btn {
+  /* .btn {
     background-color: var(--accent-color);
     color: var(--primary-text-color);
     padding: 15px 30px;
@@ -59,9 +59,10 @@
     background-color: #ffffff;
     color: var(--background-color);
     transition: all 0.3s;
-  }
+  } */
   .skills {
     margin-top: 50px;
+    text-align: center;
   }
   
   .skills h2 {
