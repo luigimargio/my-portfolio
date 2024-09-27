@@ -4,9 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-project4',
   templateUrl: './project4.component.html',
   styleUrls: [
-    './project4.component.css',               // Component-specific styles
-    '../../shared/project-detail-styles.css'  // Shared styles
-  ]
+    './project4.component.css',               
+    '../../shared/project-detail-styles.css'  
 })
 export class Project4Component {
 

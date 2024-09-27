@@ -24,12 +24,11 @@
         />
         <span class="development-platform-text">{{ project.developmentPlatform }}</span>
       </p>
-      <p><strong>Development Duration:</strong> {{ project.developmentDuration }}</p> <!-- Nuovo campo -->
+      <p><strong>Development Duration:</strong> {{ project.developmentDuration }}</p> 
       <h3>My Responsibilities:</h3>
       <ul>
         <li *ngFor="let responsibility of project.responsibilities">{{ responsibility }}</li>
       </ul>
-      <!-- Aggiungi il contenuto personalizzato -->
       <div [innerHTML]="sanitizedContent"></div>
     </div>
   </div>

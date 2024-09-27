@@ -20,7 +20,6 @@ export interface Project {
 })
 export class ProjectService {
   private projects: Project[] = [
-    // Your projects here
     {
       id: 'project1',
       title: 'Treasures of Innocence',
@@ -36,13 +35,6 @@ export class ProjectService {
       platform: 'PC',
       developmentDuration: 'January 2020 - March 2020', 
       customContent: `
-        <h2>Additional Information</h2>
-        <p>In questo progetto, mi sono occupato di...</p>
-        <ul>
-          <li>Design dei livelli</li>
-          <li>Scrittura della narrativa</li>
-          <li>Implementazione del sistema di combattimento</li>
-        </ul>
       `
     },
     {
@@ -58,15 +50,8 @@ export class ProjectService {
       Customize your darts with unique aesthetics unlocked through a loot box system, adding a personal touch to your gameplay experience.`,
       responsibilities: ['Lead Design', 'Art Direction'],
       developmentPlatform: 'Unity',
-      platform: 'Mobile', developmentDuration: 'January 2020 - March 2020', // Durata di sviluppo
+      platform: 'Mobile', developmentDuration: 'January 2020 - March 2020',
       customContent: `
-        <h2>Additional Information</h2>
-        <p>In questo progetto, mi sono occupato di...</p>
-        <ul>
-          <li>Design dei livelli</li>
-          <li>Scrittura della narrativa</li>
-          <li>Implementazione del sistema di combattimento</li>
-        </ul>
       `
     },
     {
@@ -81,15 +66,8 @@ export class ProjectService {
 U               se your wits to stop the loop and save everyone from the apocalypse.`,
       responsibilities: ['Worldbuilding', 'Art Direction'],
       developmentPlatform: 'Unreal Engine',
-      platform: 'PC', developmentDuration: 'January 2020 - March 2020', // Durata di sviluppo
+      platform: 'PC', developmentDuration: 'January 2020 - March 2020', 
       customContent: `
-        <h2>Additional Information</h2>
-        <p>In questo progetto, mi sono occupato di...</p>
-        <ul>
-          <li>Design dei livelli</li>
-          <li>Scrittura della narrativa</li>
-          <li>Implementazione del sistema di combattimento</li>
-        </ul>
       `
     },
   ];

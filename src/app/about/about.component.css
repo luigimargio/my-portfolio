@@ -105,23 +105,23 @@ h1 {
 }
 
 .skill-item fa-icon {
-  display: block; /* Aggiunto */
+  display: block; 
   font-size: 40px;
   color: var(--accent-color);
-  margin-bottom: 15px; /* Puoi aumentare questo valore se necessario */
+  margin-bottom: 15px; 
 }
 
 .skill-item h3 {
   font-size: 22px;
   color: var(--primary-text-color);
-  margin-top: 0; /* Assicura che non ci sia spazio sopra */
-  margin-bottom: 10px; /* Spazio sotto il titolo */
+  margin-top: 0; 
+  margin-bottom: 10px; 
 }
 
 .skill-item p {
   font-size: 16px;
   color: var(--secondary-text-color);
-  margin-top: 0; /* Evita spazio extra sopra il paragrafo */
+  margin-top: 0; 
 }
 
 @media (max-width: 768px) {
@@ -185,17 +185,17 @@ h1 {
 
 .timeline-event ul li {
   position: relative;
-  padding-left: 25px; /* Spazio per l'icona personalizzata */
+  padding-left: 25px; 
   margin-bottom: 10px;
 }
 
 .timeline-event ul li::before {
-  content: '\f0da'; /* Codice unicode dell'icona (esempio: Font Awesome) */
-  font-family: 'Font Awesome 5 Free'; /* Assicurati che la libreria sia inclusa */
-  font-weight: 900; /* Peso dell'icona */
+  content: '\f0da'; 
+  font-family: 'Font Awesome 5 Free'; 
+  font-weight: 900; 
   position: absolute;
   left: 0;
   top: 0;
-  color: var(--accent-color); /* Colore dell'icona */
+  color: var(--accent-color); 
 }
 

@@ -35,7 +35,7 @@
 }
 
 .content {
-  padding-top: 80px; /* Altezza dell'header per evitare sovrapposizioni */
+  padding-top: 80px; 
 }
 
 @media (max-width: 768px) {
