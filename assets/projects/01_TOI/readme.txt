@@ -1,0 +1,2 @@
+In Treasures of Innocence, the player takes on the role of a kid with a passion for archaeology. The game's goal is to dig up, from deep under the sandbox, hidden everyday objects reimagined as ancient artifacts. As more objects are uncovered the player can learn more about the life of the kid hidden behind the innocence of childhood.
+https://digital-bros-game-academy.itch.io/treasures-of-innocence
