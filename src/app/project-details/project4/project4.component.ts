@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: [
     './project4.component.css',               
     '../../shared/project-detail-styles.css'  
+  ]
 })
 export class Project4Component {
 
