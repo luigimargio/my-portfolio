@@ -1,0 +1,2 @@
+In "My last Neuron", players take on the role of a neuron within a human mind. The central objective is to transmit the signal of laughter through a network of neurons. This journey symbolizes the intricate process of how a simple thought or emotion, like laughter, travels through the brain.
+https://globalgamejam.org/games/2024/my-last-neuron-0

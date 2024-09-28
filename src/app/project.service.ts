@@ -63,7 +63,7 @@ export class ProjectService {
       thumbnail: '',
       details: `Embark on a third-person puzzle adventure set on a mysterious archipelago trapped in a time loop. 
                 Discover an ancient cursed civilization, interact with intriguing characters, and solve challenging puzzles. 
-U               se your wits to stop the loop and save everyone from the apocalypse.`,
+                Use your wits to stop the loop and save everyone from the apocalypse.`,
       responsibilities: ['Worldbuilding', 'Art Direction'],
       developmentPlatform: 'Unreal Engine',
       platform: 'PC', developmentDuration: 'January 2020 - March 2020', 
